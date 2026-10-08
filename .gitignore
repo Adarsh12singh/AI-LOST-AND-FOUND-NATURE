@@ -1,0 +1,35 @@
+# Python & Virtual Environments
+backend/venv/
+backend/.venv/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.pytest_cache/
+
+# Databases
+backend/*.db
+*.db
+*.sqlite3
+
+# Uploads (keep directory with .gitkeep)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Node & Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+.next/
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
